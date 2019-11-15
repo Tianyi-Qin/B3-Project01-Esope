@@ -1,0 +1,135 @@
+/* Polices utilisés dans le header */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');
+
+/* Polices utilisés dans fable01020304 */
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap');
+
+/* Polices utilisés dans titres */
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed:500&display=swap');
+
+/* Polices utilisés pour moral */
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700&display=swap');
+
+
+header h1 {
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+  font-size: 2cm;
+  border-bottom: 2px solid yellow;
+  border-top: 2px solid yellow;
+  padding: 2em;
+  background: rgba(61, 38, 94, 0.5);
+  border-radius: 10px;
+}
+
+#comment {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1.80em;
+  text-shadow: 1px 1px 1px rgba(239,0,114,0.7);
+  background: #3d265e url('images/tietu_02.png') repeat center;
+  border-radius: 10px;
+  text-align: center;
+  padding: 0;
+}
+
+
+/* Styles utilisés dans fable01 */
+#fable01 {
+  font-family: 'Old Standard TT', serif;
+
+}
+
+#fable01 h2 {
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 4em;
+  text-shadow: 4px 4px 4px rgba(239,0,114,0.7);
+}
+
+#fable01 .fable-moral {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    border-bottom: 2px solid yellow;
+    border-top: 2px solid yellow;
+    border-right: 2px solid yellow;
+    border-left: 2px solid yellow;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Styles utilisés dans fable02 */
+#fable02 {
+  font-family: 'Old Standard TT', serif;
+}
+
+#fable02 h2 {
+  font-size: 3.052em;
+  margin: 2.75rem 0 2.75rem 0;
+  font-family: 'Asap Condensed', sans-serif;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+#fable02 .fable-moral {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    border-bottom: 2px solid yellow;
+    border-top: 2px solid yellow;
+    border-right: 2px solid yellow;
+    border-left: 2px solid yellow;
+    border-radius: 10px;
+    text-align: center;
+    margin: 2.75rem 0 1rem;
+}
+
+/* Styles utilisés dans fable03 */
+#fable03 {
+  font-family: 'Old Standard TT', serif;
+}
+
+#fable03 h2 {
+  padding: 80px;
+  font-family: 'Asap Condensed', sans-serif;
+  margin: 0;
+  font-size: 5em;
+  line-height: 1;
+  text-align: center;
+  text-shadow: 4px 4px 4px rgba(239,0,114,0.7);
+}
+
+#fable03 .fable-moral {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    border-bottom: 2px solid yellow;
+    border-top: 2px solid yellow;
+    border-right: 2px solid yellow;
+    border-left: 2px solid yellow;
+    border-radius: 10px;
+    text-align: center;
+    margin: 2.75rem 0 1rem;
+}
+
+/* Styles utilisés dans fable01 */
+#fable04 {
+  font-family: 'Old Standard TT', serif;
+
+}
+
+#fable04 h2 {
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 4em;
+  text-shadow: 4px 4px 4px rgba(239,0,114,0.7);
+}
+
+#fable04 .fable-moral {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    border-bottom: 2px solid yellow;
+    border-top: 2px solid yellow;
+    border-right: 2px solid yellow;
+    border-left: 2px solid yellow;
+    border-radius: 10px;
+    text-align: center;
+    margin: 2.75rem 0 1rem;
+}

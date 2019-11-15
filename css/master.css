@@ -1,0 +1,177 @@
+
+header {
+  min-height: 100vh;
+  background: #3d265e url('images/fond_titre_01.jpg') no-repeat top center;
+  background-size: cover;
+  color: #F0C300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#comment {
+  max-height: 5vh;
+  color: #F0C300;
+  margin: 0;
+}
+body {
+  justify-content: center;
+  max-width: 1000px;
+  min-width: 80vh;
+  background: #3d265e url('images/tietu_02.png') repeat center;
+}
+
+section {
+  min-height: 100vh;
+}
+
+/* Styles utilisés dans fable01 */
+
+h2 {
+  color: #F0C300;
+}
+
+#fable01 {
+  min-height: 60vh;
+  background: #3d265e url('images/Oudry_wolf_&_lamb.jpg') top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 42px;
+}
+
+#fable01 .text-content {
+  background: rgba(81, 53, 124, 0.5);
+  border-radius: 10px;
+  padding: 35px;
+  margin-top : 0;
+  margin-right : auto;
+  margin-bottom : 0;
+  margin-left : auto;
+  max-width: 620px;
+  color: white;
+}
+
+#fable01 .fable-moral {
+  color: white;
+}
+
+/* Styles utilisés dans fable02 */
+#fable02 {
+  min-height: 60vh;
+  overflow: hidden;
+  padding: 6px;
+}
+
+#fable02 .main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#fable02 .text-content {
+  background: rgba(81, 53, 124, 0.7);
+  border-radius: 10px;
+  color: white;
+  padding: 42px;
+  margin: 6px;
+/*  max-width: 620px; */
+  flex-basis: 420px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#fable02 figure {
+/*  max-width: 620px; */
+  flex-basis: 300px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  margin: 0px;
+}
+
+#fable02 figure img {
+  width : 100%;
+  border-left : 48px solid rgba(81, 53, 124, 0.7);
+  border-top : 48px solid rgba(81, 53, 124, 0.7);
+  border-bottom : 54px solid rgba(81, 53, 124, 0.7);
+  border-radius: 10px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+
+#fable02 .fable-moral {
+  max-width: 100%;
+  text-align: center;
+}
+
+/* Styles utilisés dans fable03 */
+#fable03 {
+  overflow: hidden;
+  background: #009164 url('images/cycle.png');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#fable03 .main-content {
+    max-width: 600px;
+}
+
+#fable03 p {
+  background: #064933;
+  color: #fff;
+  padding: 42px;
+  border-radius: 10px;
+}
+
+#fable03 .fable-moral {
+  max-width: 100%;
+  text-align: center;
+}
+
+#fable03 figure {
+/*  max-width: 620px; */
+  flex-flow: 420px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  margin: 6px;
+}
+
+#fable03 figure img {
+  width : 95%;
+  border : 12px solid #064933;
+}
+
+#fable04 {
+  min-height: 60vh;
+  background: #3d265e url('images/lionmouse-3.jpg') top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+#fable04 .text-content {
+  background: rgba(81, 53, 124, 0.5);
+  border-radius: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  margin-top : 0;
+  margin-right : auto;
+  margin-bottom : 0;
+  margin-left : auto;
+  max-width: 600px;
+  color: white;
+}
+
+#fable04 .fable-moral {
+  color: white;
+}
